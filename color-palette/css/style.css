@@ -1,0 +1,90 @@
+#palette1 {
+    font-family: sans-serif;
+    text-align: center;
+}
+
+#palette1-color1 {
+    background-color: #731DD8;
+    color: #FCFCFC;
+    font-family: sans-serif;
+    text-align: center;
+    padding: 24px;
+}
+
+#palette1-color2 {
+    background-color: #48A9A6;
+    color: #FCFCFC;
+    font-family: sans-serif;
+    text-align: center;
+    padding: 24px;
+}
+
+#palette1-color3 {
+    background: #FCFCFC;
+    color: #040403;
+    font-family: sans-serif;
+    text-align: center;
+    padding: 24px;
+}
+
+#palette1-color4 {
+    background: #040403;
+    color: #FCFCFC;
+    font-family: sans-serif;
+    text-align: center;
+    padding: 24px;
+}
+
+#palette1-color5 {
+    background: #6D6466;
+    color: #040403;
+    font-family: sans-serif;
+    text-align: center;
+    padding: 24px;
+}
+
+#palette2 {
+    font-family: sans-serif;
+    text-align: center;
+}
+
+
+#palette2-color1 {
+    background: #091540;
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+    padding: 24px;
+}
+
+#palette2-color2 {
+    background: #7692FF;
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+    padding: 24px;
+}
+
+#palette2-color3 {
+    background: #ABD2FA;
+    color:#091540;
+    font-family: sans-serif;
+    text-align: center;
+    padding: 24px;
+}
+
+#palette2-color4 {
+    background: #3D518C;
+    color:white;
+    font-family: sans-serif;
+    text-align: center;
+    padding: 24px;
+}
+
+#palette2-color5 {
+    background: #1B2CC1;
+    color: #091540;
+    font-family: sans-serif;
+    text-align: center;
+    padding: 24px;
+}
