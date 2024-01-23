@@ -88,3 +88,32 @@
     text-align: center;
     padding: 24px;
 }
+
+#palette3 {
+    font-family: sans-serif;
+    text-align: center;
+}
+
+#palette3-color1 {
+    background: #ff6978;
+    color: #f1faee;
+    font-family: sans-serif;
+    text-align: center;
+    padding: 24px;
+}
+
+#palette3-color2 {
+    background: #fffcf9;
+    color: #ff6978;
+    font-family: sans-serif;
+    text-align: center;
+    padding: 24px;
+}
+
+#palette3-color3 {
+    background: #a8dadc;
+    color: #fffcf9;
+    font-family: sans-serif;
+    text-align: center;
+    padding: 24px;
+}
