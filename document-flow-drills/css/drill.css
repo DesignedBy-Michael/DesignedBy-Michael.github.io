@@ -21,11 +21,10 @@
 
 /* Drill 5 - Write your code solution below */
 #d5-div1 {
-    display: block;
-}
-
-#d5-div2 {
     display: inline-block;
 }
 
+#d5-div2 {
+    display: block;
+}
 /* Drill 6 - Write your code solution below */
