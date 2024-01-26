@@ -20,11 +20,14 @@
 }
 
 /* Drill 5 - Write your code solution below */
-#d5-div1 {
-    display: inline-block;
-}
-
+#d5-div1,
 #d5-div2 {
-    display: block;
+    display: inline-block;
+    width: 47%;
 }
 /* Drill 6 - Write your code solution below */
+#d6-div2,
+#d6-div3 {
+    display: inline-block;
+    width: 48%;
+}
