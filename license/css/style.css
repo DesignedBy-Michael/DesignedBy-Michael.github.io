@@ -15,65 +15,92 @@
 }
 
 h1 {
-    border: 3px solid red;
-    font-family: sans-serif;
+    font-family: serif;
+    color: navy;
 }
 
 #left-side {
-    border: 3px solid red;
     display: inline-block;
     width: 65%;
     font-family: sans-serif;
 }
 
 #right-side {
-    border: 3px solid red;
     display: inline-block;
     font-family: sans-serif;
 }
 
 #address {
     font-weight: bold;
-    border: 3px solid green;
     font-family: sans-serif;
 }
 
 #data-left {
-    border: 3px solid green;
     display: inline-block;
-    color: red;
-    margin-left: 150px;
+    color: black;
+    margin-left: 0px;
     font-family: sans-serif;
 }
 
 #data-right {
-    border: 3px solid green;
     display: inline-block;
-    color: red;
+    color: black;
     font-family: sans-serif;
 }
 
 #signature {
     font-family: cursive;
+    text-align: center;
 }
 
 #data-fields span {
     color: black ;
     font-family: sans-serif;
+    display: inline-block;
 }
 
-#small-pic {
-   border: 3px solid blue;
-   display:inline-block;
-}
 
 h4 {
     color: white;
     background-color: navy;
     text-align: center;
-    font-family: sans-serif ;
+    font-family: sans-serif;
 }
 
 #content {
-    padding: 20px;
+    padding: 50px;
 }
+
+#id-and-exploration {
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+div#left-side img {
+    display: inline-block;
+    width: 80px;
+    border: 3px solid blueviolet 
+}
+
+#data-fields,
+#small-pic {
+    display: inline-block;
+}
+
+#donor {
+    display: inline-block;
+    color: red;
+}
+
+div#right-side img {
+    width: 200px
+}
+
+#real-id {
+    display: inline-block;
+    background-color: rgb(246, 213, 24);
+    border-radius: 75px;
+    color: white;
+}
+
+ 
