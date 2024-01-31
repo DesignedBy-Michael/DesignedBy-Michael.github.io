@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+}
+
+.logo {
+    width: 75px;
+    margin-left: 50%;
+    padding: 10px;
+}
+
+body {
+    background-color: blue;
+    margin: 0px;
+    padding: 36px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.hero {
+    background-color: white;
+}
+
+.hero-cookie {
+    width: 300px;
+    margin-right: 50%;
+    display: inline-block;
+}
+
+.hero-statement {
+    display: inline-block;
+    font-weight: bold;
+    font-size: x-large;
+    text-align: center; 
+}
+
+.hero-substatement {
+    font-size: small;
+    font-style: italic;
+    text-align: center;
+    padding-bottom: 50px;
+}
