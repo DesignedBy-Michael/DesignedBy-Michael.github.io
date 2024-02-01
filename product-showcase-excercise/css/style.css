@@ -54,3 +54,23 @@ body {
     margin-right: auto;
     padding-bottom: 20px;
 }
+
+.red-section {
+    background-color: darkred;
+}
+
+.red-paragraph {
+    text-align: center;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px;
+}
+
+#red-heading {
+    text-align: center;
+}
+
+.red-ahoy {
+    margin-left: 33%;
+}
