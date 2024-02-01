@@ -2,39 +2,55 @@
     box-sizing: border-box;
 }
 
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background-color: blue;
+}
+
+.single-column {
+    /* background-color: aqua; */
+    width: 50%;
+    min-width: 400px;
+    margin-left: auto;
+    margin-right:auto;
+}
+
+.light-container {
+    background-color: aqua;
+}
+
+.dark-container {
+    background-color: white;
+}
+
 .logo {
     width: 75px;
     margin-left: 50%;
-    padding: 10px;
-}
-
-body {
-    background-color: blue;
-    margin: 0px;
-    padding: 36px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-.hero {
-    background-color: white;
 }
 
 .hero-cookie {
     width: 300px;
-    margin-right: 50%;
-    display: inline-block;
+}
+
+.hero {
+    background-color: white;   
+}
+.hero-cookie {
+    margin-left: 37%;
+    width: 600px;
 }
 
 .hero-statement {
-    display: inline-block;
     font-weight: bold;
-    font-size: x-large;
-    text-align: center; 
+    text-align: center;
+    font-size: xx-large;
 }
 
 .hero-substatement {
-    font-size: small;
-    font-style: italic;
     text-align: center;
-    padding-bottom: 50px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 20px;
 }
