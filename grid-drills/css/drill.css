@@ -53,8 +53,9 @@
 /* Drill 6 - Write your code solution below */
 #container-d6 {
     display: grid;
+    grid-template-columns: 1fr 1fr;
     grid-template-areas: 
-        "one two"
+        "one   two"
         "three three";
 }
 
