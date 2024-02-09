@@ -69,6 +69,7 @@ body {
 .side-by-side .text-container h3 {
     font-size: 48px;
     color: whitesmoke;
+    margin-left: 50px;
 }
 
 .side-by-side .text-container a {
@@ -80,4 +81,5 @@ body {
     color: white;
     padding: 24px 48px;
     border-radius: 48px;
+    margin-left: 50px;
 }
