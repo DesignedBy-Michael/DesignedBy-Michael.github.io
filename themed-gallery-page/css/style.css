@@ -30,6 +30,17 @@ body {
     text-align: center;
     color: azure;
 }
+
+#layout h1 {
+    font-size: 8vw;
+    margin-bottom: 0px;
+}
+
+#layout h3 {
+    font-size: 2vw;
+    margin-top: 0px;
+    margin-bottom: 40px;
+}
     
 .basic-grid-gallery {
     display: flex;
@@ -42,4 +53,5 @@ body {
     flex: 1;
     object-fit: cover;
     border: 3px solid azure;
+    border-radius: 10px;
 }
