@@ -1,0 +1,145 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+    background-color: #ededed;
+}
+
+a {
+    color: #15325a;
+}
+
+#navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+#navbar a {
+    text-decoration: none;
+    padding: 24px;
+}
+
+.hero-content {
+    margin-left: 24px 24px 24px;
+    margin-bottom: 0px;
+    font-size: 150px;
+    font-weight: bold;
+    padding: 270px;
+    padding-left: 100px;
+}
+
+#hero-content a {
+    background-color: #15325a;
+    border-radius: 15px;
+}
+
+#hero-3 {
+    background-image: url("../images/hero3.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    color: #ededed;
+}
+
+#hero-3 a {
+    font-size: 1.5vw;
+    display: inline-block;
+    background-color: #f24056;
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    margin-left: 5px;
+    border-radius: 20px;
+    margin-top: 30px;
+}
+
+#hero-3 a:hover {
+    background-color: #23579f;
+  }
+
+#services {
+    background-color: #15325a;
+    padding: 50px;
+    color: #ededed;
+    width: 100%;
+    margin: 48px auto;
+}
+
+#services h1 {
+    text-align: center;
+    font-size: 50px;
+}
+
+.card {
+    width: 350px;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: -4px4px 12px #ededed;
+    display: inline-block;
+    text-align: center;
+    margin-left: 460px;
+}
+
+.card h2 {
+    font-size: 36px;
+    margin-top: 12px;
+}
+
+.card p {
+    font-size: 18px;
+}
+
+#gallery {
+    columns: 3 auto;
+    column-gap: 24px;
+}
+
+#gallery img {
+    width: 100%;
+    margin-bottom: 24px;
+}
+
+#gallery-heading {
+    text-align: center;
+    font-size: 50px;
+    color: #15325a;
+}
+
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical 
+  }
+  
+  input[type=submit] {
+    background-color: #15325a;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  input[type=submit]:hover {
+    background-color: #23579f;
+  }
+  
+  .container {
+    border-radius: 5px;
+    background-color: #ededed;
+    padding: 20px;
+  }
+
+  #contact-heading {
+    font-size: 50px;
+    text-align: center;
+  }
