@@ -58,7 +58,8 @@ a {
 }
 
 #hero-3 a:hover {
-    background-color: #23579f;
+    background-color: white;
+    color: #f24056;
   }
 
 #services {
