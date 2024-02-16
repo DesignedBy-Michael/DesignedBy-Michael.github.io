@@ -1,0 +1,111 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#navbar-1 {
+    background: linear-gradient(to bottom, rgb(58, 58, 249), blue);
+    display: flex;
+}
+
+#navbar-1 a {
+    text-decoration: none;
+    color: white;
+    padding: 24px;
+}
+
+#navbar-2 {
+    background-color: crimson;
+    display: flex;
+    justify-content: space-around;
+}
+
+#navbar-2 a {
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+}
+
+#navbar-3 {
+    background-color: #c514dc;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#navbar-3 a {
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+}
+
+#navbar-3 img  {
+    width: 100px;
+}
+
+#navbar-3 #logo {
+    margin-right: auto;
+}
+
+#navbar-3 .cta-button {
+    background-color: yellow;
+    color: #c514dc;
+    border-radius: 36px;
+    padding: 16px 24px;
+    font-size: 20px;
+    font-weight: bold;
+    min-width: 150px;
+    text-align: center;
+    margin-right: 24px;
+}
+
+#navbar-3 .cta-button:hover {
+    background-color: rgb(255, 255, 215);
+}
+
+#layout {
+    width: 900px;
+    margin: 48px auto;
+    font-size: 24px;
+    height: 200vh;
+}
+
+#navbar-3 {
+    position: sticky;
+    top: 0px;
+}
+
+#navbar-3 :hover {
+    background-color: #e278f0;
+}
+
+#navbar-3-bottom {
+    background-color: #c514dc;
+    padding: 12px;
+    display: flex;
+    position: sticky;
+    top: 10px;
+}
+
+#navbar-3-bottom a {
+    text-decoration: none;
+    color: white;
+    padding-right: 20px;
+}
+
+#navbar-3-bottom a:hover {
+    color: yellow;
+}
+
+#navbar-3-bottom {
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+
+
