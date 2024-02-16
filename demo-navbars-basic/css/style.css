@@ -74,9 +74,9 @@ body {
     height: 200vh;
 }
 
-#navbar-3 {
+#navbar-3-header {
     position: sticky;
-    top: 0px;
+    top: 0;
 }
 
 #navbar-3 :hover {
@@ -106,6 +106,21 @@ body {
     justify-content: flex-end;
 }
 
+#footer {
+    background-color: #c514dc;
+    padding: 24px;
+}
 
+#footer a {
+    color: white;
+    text-decoration: none;
+    padding: 24px;
+}
 
+#footer a:hover {
+    color: yellow;
+}
 
+#footer span {
+    color: white;
+}
