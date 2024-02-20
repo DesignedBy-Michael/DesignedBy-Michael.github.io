@@ -217,6 +217,10 @@ a {
         flex-direction: column;
     }
 
+    .card a {
+        flex-direction: column;
+    }
+
     #nav-links {
         flex-direction: column;
     }
