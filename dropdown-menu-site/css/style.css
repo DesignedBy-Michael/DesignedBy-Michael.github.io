@@ -65,4 +65,48 @@ body {
 
 .spacer {
     height: 50vh;
+    background-image: url(../images/pexels-felix-mittermeier-1146134.jpg);
+    width: 100%;
+}
+
+#available-animals {
+    display: block;
+    align-items: center;
+    text-align: center;
+    background-color: grey;
+}
+
+#available-animals h4 {
+    font-size: 30px;
+}
+
+.animals img {
+    width: 300px;
+    height: 350px;
+}
+
+.animals {
+    width: 50%;
+    min-width: 400px;
+    margin-left: auto;
+    margin-right:auto;
+    text-align: center;
+    width: 350px;
+    border: 2px solid #ffe32f;
+    padding: 10px;
+    box-shadow: -4px 4px 12px #f1f573;
+    background: linear-gradient(-50deg,#000000, #504e9a,#1f1b94);
+    
+}
+
+.animals a {
+    background-color: yellow;
+    padding: 14px;
+    border-radius: 10px;
+    color: black;
+    text-decoration: none;
+}
+
+.animals a:hover {
+    background-color: aqua;
 }
