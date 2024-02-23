@@ -5,17 +5,19 @@
 body {
     margin: 0px;
     font-family: sans-serif;
+    background-color: #29296e ;
 }
 
-body {
-    margin: 0px;
-    font-family: sans-serif;
-}
+/* navbar */
 
 #navbar {
     display: flex;
     align-items: center;
-    background-color: rgb(22, 22, 64);
+    background-color: #161640;
+}
+
+.logo {
+    width: 50px;
 }
 
 #navbar a {
@@ -28,6 +30,28 @@ body {
 #navbar a:hover {
     color: goldenrod;
 }
+
+.dropdown-container:hover .dropdown-menu {
+    opacity: 1;
+    visibility: visible;
+}
+
+.dropdown-menu {
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+    transition: 
+        opacity 0.25s
+        visibility 0.25s;
+}
+
+.dropdown-menu a {
+    background-color: #161640;
+    min-width: 200px;
+    width: 50%;
+}
+
+/* hero */
 
 #hero-1 {
     background-image: url(../images/adoptionlocation.jpg);
@@ -63,50 +87,115 @@ body {
     color: goldenrod;
 }
 
-.spacer {
-    height: 50vh;
-    background-image: url(../images/pexels-felix-mittermeier-1146134.jpg);
-    width: 100%;
-}
+/* avilable animals */
 
 #available-animals {
-    display: block;
+    display: flex;
     align-items: center;
     text-align: center;
-    background-color: grey;
+}
+
+#animals-heading h1 {
+    color: #f1f1f1;
+    text-align: center;
+}
+
+#animals-heading p {
+    margin-bottom: 30px;
+    color: #f1f1f1;
+    text-align: center;
 }
 
 #available-animals h4 {
     font-size: 30px;
+    margin-bottom: 0px;
+    color: goldenrod;
 }
+
 
 .animals img {
     width: 300px;
-    height: 350px;
 }
 
 .animals {
     width: 50%;
-    min-width: 400px;
+    min-width: 200px;
     margin-left: auto;
     margin-right:auto;
     text-align: center;
     width: 350px;
     border: 2px solid #ffe32f;
-    padding: 10px;
+    padding: 20px;
     box-shadow: -4px 4px 12px #f1f573;
     background: linear-gradient(-50deg,#000000, #504e9a,#1f1b94);
-    
 }
 
 .animals a {
-    background-color: yellow;
+    background-color: goldenrod;
     padding: 14px;
     border-radius: 10px;
-    color: black;
+    color: #f1f1f1;
     text-decoration: none;
+    margin: 20px 0px;
 }
 
 .animals a:hover {
-    background-color: aqua;
+    background-color: #f1f1f1;
+    color: goldenrod;
+}
+
+.about-pet {
+    width: 500px;
+    height: 550px;
+    border: 2px solid #4a46cf;
+    padding: 10px;
+    box-shadow: -4px 4px 12px #7c78f9;
+    background: linear-gradient(-50deg,#000000, #504e9a,#1f1b94);
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: white;
+}
+
+.about-pet img {
+    width: 330px;
+    height: 330px;
+}
+
+.about-pet h4 {
+    color: #daa520;
+}
+
+.about-pet a {
+    background-color: goldenrod;
+    padding: 12px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #f1f1f1;
+}
+
+/* responsive */
+
+@media screen and (max-width: 700px) { 
+
+    #navbar {
+        flex-direction: column;
+    }
+    
+    #hero-1 h1 {
+        flex-direction: column;
+        text-align: center;
+        font-size: 50px;
+    }
+
+    #hero-1 a {
+        align-items: center;
+        flex-direction: column;
+        font-size: 25px;
+    }
+
+    #available-animals {
+        flex-direction: column;
+    }
 }
