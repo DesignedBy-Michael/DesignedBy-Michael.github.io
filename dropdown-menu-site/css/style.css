@@ -87,6 +87,7 @@ body {
     color: goldenrod;
 }
 
+<<<<<<< Updated upstream
 /* avilable animals */
 
 #available-animals {
@@ -199,3 +200,8 @@ body {
         flex-direction: column;
     }
 }
+=======
+.spacer {
+    height: 50vh;
+}
+>>>>>>> Stashed changes
