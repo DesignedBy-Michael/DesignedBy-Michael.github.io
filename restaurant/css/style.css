@@ -235,14 +235,14 @@ body {
 
 .prices {
     padding-left: 50px;
-    margin-top: 61px;
+    margin-top: 80px;
 }
 
 .prices p {
     font-weight: bold;
 }
 
-.chicken-menu {
+.menu {
     width: 300px;
     background-color: #a734cf;
     padding: 24px;
@@ -255,5 +255,14 @@ body {
 
 .header {
     font-size: 25px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+
+
+#header {
+    color: #a734cf;
+    font-size: 100px;
     font-weight: bold;
 }
