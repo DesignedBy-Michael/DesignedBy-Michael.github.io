@@ -220,6 +220,7 @@ body {
     font-size: 40px;
     margin: 2px;
     color: #a734cf;
+    font-weight: bolder;
 }
 
 .soups-menu {
@@ -234,8 +235,25 @@ body {
 
 .prices {
     padding-left: 50px;
+    margin-top: 61px;
 }
 
 .prices p {
+    font-weight: bold;
+}
+
+.chicken-menu {
+    width: 300px;
+    background-color: #a734cf;
+    padding: 24px;
+    display: flex;
+    color: #dde354;
+    border-radius: 20px;
+    box-shadow: 0px 8px #2e2e2e33;
+    margin-top: 50px;
+}
+
+.header {
+    font-size: 25px;
     font-weight: bold;
 }
