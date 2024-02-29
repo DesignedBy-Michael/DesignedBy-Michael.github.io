@@ -7,6 +7,11 @@ body {
     font-family: sans-serif;
 }
 
+.card-container {
+    margin-left: auto;
+    margin-right: auto;
+}
+
 /* Discount navbar */
 
 #discount-nav {
@@ -116,6 +121,7 @@ body {
     display: flex;
     justify-content: space-evenly;
     margin-top: 50px;
+    overflow: hidden;
 }
 
 .plates-section {
@@ -208,7 +214,13 @@ body {
 /* Menu */
 
 .card-container {
-    padding-left: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-container img {
+    margin-top: 40px; 
 }
 
 .card-container h1 {
@@ -253,16 +265,74 @@ body {
     margin-top: 50px;
 }
 
+.card-container img {
+    width: 400px;
+}
+
 .header {
     font-size: 25px;
     font-weight: bold;
     text-decoration: underline;
 }
 
-
-
 #header {
     color: #a734cf;
     font-size: 100px;
     font-weight: bold;
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom: 0px;
+}
+
+.top-menu {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.bottom-menu {
+    display: flex;
+    justify-content: space-around;
+    width: 100%; 
+}
+
+#menu-banner {
+    width: 100%;
+    border-radius: 24px;
+    box-shadow: 0px 8px #2e2e2e33;
+}
+
+/* footer */
+
+#footer-columns-navbar > div {
+    background-image: url(../images/banner-3.png);
+    display: flex;
+    flex-direction: column;
+    height: 60vh;
+    background-size: cover;
+    background-position: center center;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 5vw;
+    color: whitesmoke;
+}
+
+#text-and-icons h3 {
+    font-size: 30px;
+}
+
+.icons-container {
+    margin-bottom: 60px;
+}
+
+.footer-links p {
+    font-weight: bold;
+    color: #dde354;
+    margin-bottom: 2px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: whitesmoke;
+    padding-bottom: 20px;
 }
