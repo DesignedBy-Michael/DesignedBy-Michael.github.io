@@ -1,0 +1,184 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: "ubuntu", sans-serif;
+    background-image: url(../images/nfl\ field.jpg);
+    background-size: cover; 
+    background-position: center center; 
+    background-repeat: no-repeat;
+    color: whitesmoke;
+}
+
+
+.single-column {
+    width: 60%;
+    min-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    align-items: center;
+    background-color: rgb(0, 0, 0, .5);
+    padding: 20px 0px 50px 0px;
+}
+
+/* header */
+.header {
+    margin-top: 50px;
+}
+
+.header  h3 {
+    font-size: 40px;
+    margin: 0px;
+}
+
+.header  h1 {
+    font-size: 110px;
+    margin: 0px;
+}
+
+/* teams section */
+
+.teams {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    padding-right: 10px;
+}
+.teams h1 {
+    font-size: 50px;
+}
+
+.teams img {
+    width: 400px;
+}
+
+#patriots {
+    width: 500px;
+}
+
+/* middle section */
+ 
+.middle {
+    text-align: center;
+    align-items: center;
+    margin-bottom: 80px;
+}
+
+.middle h2 {
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.middle h5 {
+    font-size: 20px;
+}
+
+.middle p {
+    font-size: 30px;
+}
+
+.middle span {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+/* buttons */
+
+.rsvp a {
+    background-color: #4848c7;
+    color: whitesmoke;
+    padding: 12px 72px;
+    border-radius: 30px;
+    text-decoration: none;
+}
+
+.rsvp p {
+    padding: 24px 0px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#cant {
+    background-color: #979696;
+    padding: 12px 36px;
+}
+
+#cant:hover {
+    background-color: #555555;
+
+}
+
+#cant:active {
+    background-color: rgb(250, 179, 193);
+    color: crimson;
+    border: 1px solid crimson;
+}
+
+.rsvp a:hover {
+    background-color: darkblue;
+}
+
+.rsvp a:active {
+    background-color: rgb(164, 164, 247);
+    color: darkblue;
+    border: 1px solid darkblue;
+}
+
+
+/* media queries */
+
+@media screen and (max-width: 480px) {
+    
+    .single-column {
+        width: 90%; 
+        min-width: unset; 
+        margin: 0 auto; 
+      }
+
+      /* teams */
+      .teams {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .teams img {
+        width: 80%; 
+        margin-bottom: 10px;
+      }
+
+      .teams h1 {
+        font-size: 20px;
+      }
+     
+      /* header  */
+      .header h1 {
+        font-size: 40px; 
+      }
+
+      .header h3 {
+        font-size: 20px;
+      }
+    
+      /* middle */
+      .middle h2 {
+        font-size: 20px; 
+      }
+    
+      .middle h5 {
+        font-size: 11px; 
+      }
+    
+      .middle p {
+        font-size: 20px;
+      }
+    
+      .middle span {
+        font-size: 20px; 
+      }
+    
+    
+}
