@@ -12,12 +12,17 @@ body {
     margin-right: auto;
 }
 
+#spacer {
+    background-image: url(../images/banner-3.png);
+}
+
 /* Discount navbar */
 
 #discount-nav {
     text-align: center;
     color: #a734cf;
     background-color: #dde354;
+    padding: 5px;
     padding-bottom: 2px;
 }
 
@@ -110,6 +115,11 @@ body {
     border: 1px solid #dde354;
 }
 
+#hero a:active {
+    background-color: #772293;
+    border: 1px solid #dde354;
+    color: #dde354;
+}
 /* Featured Plates */
 
 #feature-plates-h3 {
@@ -143,6 +153,7 @@ body {
     box-shadow: 0px 0px 8px 3px #a734cf7f;
     transform: scale(1.1);
     filter: grayscale(100%);
+    object-fit: cover;
 }
 
 .plate-name {
@@ -336,4 +347,24 @@ body {
     text-decoration: none;
     color: whitesmoke;
     padding-bottom: 20px;
+}
+
+/* responsiveness */
+
+@media screen and (max-width: 500px) {
+    .logo {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    #navbar-1{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #hero h1 {
+        display: flex;
+        flex-direction: column;
+    }
+    
 }
