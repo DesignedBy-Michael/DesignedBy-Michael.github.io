@@ -349,22 +349,49 @@ body {
     padding-bottom: 20px;
 }
 
+/* Copy right */
+
+#copyright {
+    background-color: #a734cf;
+    color: #dde354;
+    padding: 11px;
+    text-align: center;
+}
+
 /* responsiveness */
 
-@media screen and (max-width: 500px) {
-    .logo {
-        display: flex;
-        flex-direction: column;
-    }
-    
-    #navbar-1{
-        display: flex;
-        flex-direction: column;
+@media screen and (min-width: 480px) {
+    #hero h1 {
+        font-size: 4vw; 
+        text-align: center;
     }
 
-    #hero h1 {
-        display: flex;
-        flex-direction: column;
+    #hero h4 {
+        font-size: 2vw;
+        text-align: center;
     }
-    
+
+    .feature-plates-container {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .plates-section {
+        width: 45%;
+        margin-bottom: 20px;
+    }
+
+    #header {
+        font-size: 60px;
+    }
+
+    .top-menu, .bottom-menu {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .menu {
+        width: 45%;
+    }
 }
