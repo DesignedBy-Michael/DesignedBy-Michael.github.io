@@ -54,7 +54,7 @@ function reactToMoveDownButton() {
 }
 
 function reactToMoveUpButton() {
-    moveUp(1)
+    moveUp(1);
 }
 
 function reactToAttackButton() {
