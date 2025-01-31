@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#main-section {
+    display: flex;
+}
+
+#center-div {
+    margin: 20px;
+    flex: 3;
+}
+
+#left-div ul {
+    text-decoration: none;
+    padding-left: 10px;
+}
+
+#left-div p {
+    text-align: center;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+#left-div {
+    background-color: lightgray;
+    padding: 20px;
+    max-height: 200px;
+    max-width: fit-content;
+    flex: 1;
+}
+
+#right-div {
+    max-height: 300px;
+}
+
+#second-section {
+    width: 80%;
+    margin: 0px 30px;
+}
