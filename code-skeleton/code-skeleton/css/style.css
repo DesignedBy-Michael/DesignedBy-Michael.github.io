@@ -6,3 +6,29 @@ body {
     margin: 0px;
     font-family: sans-serif;
 }
+
+#hero {
+    background-image: url(../Image/thanos-icon.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vw;
+}
+
+#hero h1,h5 {
+    color: white;
+    margin: 92px;
+}
+
+#hero a {
+    background-color: blueviolet;
+    padding: 10px;
+    border-radius: 8px;
+    color: white;
+    text-decoration: none;
+    position: absolute;
+}
+
+#hero-content {
+    align-items: flex-start;
+    padding: 450px 50px;
+}
