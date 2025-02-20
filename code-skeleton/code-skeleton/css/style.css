@@ -7,28 +7,120 @@ body {
     font-family: sans-serif;
 }
 
-#hero {
-    background-image: url(../Image/thanos-icon.jpg);
-    background-position: center;
-    background-size: cover;
-    height: 100vw;
+#navbar {
+    background-color: rgb(103, 129, 245);
+    padding: 10px;
 }
 
-#hero h1,h5 {
+#navbar a {
     color: white;
-    margin: 92px;
+    text-decoration: none;
 }
 
-#hero a {
-    background-color: blueviolet;
+#hero {
+    background-image: url(../Image/pexels-lum3n-44775-406014.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 500px;
+}
+
+#hero-content {
+    text-align: center;
+    padding-top: 50px;
+}
+
+#hero-content h1 {
+    color: rgb(103, 129, 245);
+}
+
+#hero-content p {
+    padding-bottom: 10px;
+}
+
+
+#hero-content a {
+    background-color:  rgb(103, 129, 245);
     padding: 10px;
     border-radius: 8px;
     color: white;
     text-decoration: none;
-    position: absolute;
+    font-weight: bold;
 }
 
-#hero-content {
-    align-items: flex-start;
-    padding: 450px 50px;
+#break {
+    background-color: rgb(103, 129, 245);
+    padding: 10px;
+}
+
+#main-content {
+    display: flex;
+    padding: 10px;
+    background-color: rgb(161, 205, 244);
+}
+
+.card {
+    background-color: rgb(103, 129, 245);
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+.card img {
+    display: block;
+    width: 195px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+}
+
+#name {
+    font-weight: bold;
+}
+
+.card p {
+    margin-bottom: 30px;
+}
+
+.card a {
+    padding: 10px;
+    color: white;
+    background-color: goldenrod;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.card:hover a {
+    background-color: rgb(231, 187, 78);
+}
+
+#media-1 {
+    display: flex;
+    background-color: rgb(161, 205, 244);
+}
+
+#media-1 img {
+    top: 50%;
+    left: 50%;
+}
+
+#media-1 p {
+    font-weight: bold;
+    font-size: larger;
+}
+
+#media-1 a {
+    padding: 15px;
+    border-radius: 10px;
+    background-color: goldenrod;
+    text-decoration: none;
+    color: white;
+}
+
+#text {
+    position: absolute;
+    right: 0px;
+    text-align: center;
+    padding: 200px 70px;
 }
