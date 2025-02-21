@@ -21,7 +21,7 @@ body {
     color: goldenrod;
 }
 
-#hero {
+#hero-content {
     background-image: url(../Image/pexels-lum3n-44775-406014.jpg);
     background-size: cover;
     background-position: center center;
