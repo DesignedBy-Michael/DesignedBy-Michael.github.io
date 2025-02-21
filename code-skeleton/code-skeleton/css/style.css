@@ -100,9 +100,11 @@ body {
     background-color: rgb(161, 205, 244);
 }
 
-#media-1 img {
-    top: 50%;
-    left: 50%;
+#media-1 #image {
+    background: linear-gradient(to right, #00808200, #008082),
+        url(/code-skeleton/code-skeleton/Image/catandwoman.jpg);
+    background-size: cover;
+    height: 100%;;
 }
 
 #media-1 p {
