@@ -17,6 +17,10 @@ body {
     text-decoration: none;
 }
 
+#navbar a:hover {
+    color: goldenrod;
+}
+
 #hero {
     background-image: url(../Image/pexels-lum3n-44775-406014.jpg);
     background-size: cover;
@@ -92,19 +96,17 @@ body {
 }
 
 .card:hover a {
-    background-color: rgb(231, 187, 78);
+    background-color: #e7bb4e;
 }
 
 #media-1 {
     display: flex;
-    background-color: rgb(161, 205, 244);
+    background-color: #a1cdf4;
 }
 
-#media-1 #image {
-    background: linear-gradient(to right, #00808200, #008082),
-        url(/code-skeleton/code-skeleton/Image/catandwoman.jpg);
-    background-size: cover;
-    height: 100%;;
+#media-1 img {
+    position: cover;
+    height: 100%;
 }
 
 #media-1 p {
@@ -120,9 +122,42 @@ body {
     color: white;
 }
 
+#media-1 a:hover {
+    background-color: #e7bb4e;
+}
+
 #text {
     position: absolute;
     right: 0px;
     text-align: center;
     padding: 200px 70px;
+}
+
+#footer {
+    display: flex;
+    flex-direction: column;
+    padding: 100px 10px;
+    background-color: #a1cdf4;
+}
+
+#footer p {
+    font-weight: bold;
+}
+
+#footer a {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    text-decoration: none;
+    padding-right: 10px;
+}
+
+#footer #form #email {
+    color: lightgray;
+    padding-left: 5px;
+}
+#footer #form {
+    background-color: white; 
+    width: 400px;
+    border-radius: 10px;
 }
