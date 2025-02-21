@@ -58,7 +58,6 @@ body {
 
 #main-content {
     display: flex;
-    padding: 10px;
     background-color: rgb(161, 205, 244);
 }
 
