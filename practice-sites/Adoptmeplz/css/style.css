@@ -58,6 +58,7 @@ body {
 
 #main-content {
     display: flex;
+    padding: 20px 10px;
     background-color: rgb(161, 205, 244);
     justify-content: space-between;
 }
