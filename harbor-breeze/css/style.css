@@ -18,7 +18,7 @@
 }
 
 #navbar a:hover{
-    color: #f6c444;
+    color: #004773;
 }
 #navbar #logo {
     margin-right: auto; 
@@ -29,7 +29,7 @@
     height: 500px;
     height: 100vh;
     background:
-    linear-gradient(180deg, #0096F355, #0096F333),
+    linear-gradient(180deg, #0096F300, #0096F3),
     url("../images/pexels-valeriya-1123250.jpg");
     background-size: cover;
     background-position: center center;
