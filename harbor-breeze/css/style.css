@@ -33,7 +33,7 @@ body {
     height: 500px;
     height: 100vh;
     background:
-        linear-gradient(180deg, #0096F300,#0096F3),
+        linear-gradient(180deg, #0096F300,#0096F360),
         url("../images/pexels-valeriya-1123250.jpg");
     background-size: cover;
     background-position: center center;
