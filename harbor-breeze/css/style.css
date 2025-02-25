@@ -3,6 +3,10 @@
  font-family: sans-serif;
 }
 
+body {
+    margin: 0px;
+}
+
 #navbar {
     background: linear-gradient(to bottom, #0096F3, #004773);
     display: flex;
