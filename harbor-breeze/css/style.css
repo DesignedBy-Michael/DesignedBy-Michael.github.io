@@ -120,9 +120,91 @@ body {
     border-radius: 15px;
     text-decoration: none;
     color: #004773;
+    font-weight: bold;
 }
 
 .card a:hover {
     background-color: #004773;
     color: white;
+}
+
+.side-by-side {
+    display: flex;
+    align-items: center;
+    margin: 48px 0px;
+}
+
+.side-by-side .image-container {
+    flex: 1;
+}
+
+.side-by-side .text-container {
+    flex: 1;
+    padding: 36px;
+}
+.side-by-side .image-container img {
+    width: 100%;
+}
+
+.side-by-side .text-container h3 {
+    font-size: 36px;
+}
+.side-by-side .text-container a {
+    font-size: 28px;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block;
+    background-color: #0096F3;
+    color:#004773;
+    padding: 24px 48px;
+    border-radius: 24px;
+}
+
+.side-by-side .text-container a:hover {
+    color:white;
+    background-color: #004773;
+}
+#footer {
+    background: linear-gradient(to bottom, #0096F3, #004773);
+    color: white;
+    padding: 12px;
+}
+
+#footer a {
+    text-decoration: none;
+    color: white;
+}
+
+#footer-navbar {
+    width: 800px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+#footer-columns-navbar {
+    width: 800px;
+    margin: 0px auto;
+    padding: 48px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#footer-columns-navbar a {
+    display: block;
+    padding: 8px 0px;
+}
+
+#footer a:hover {
+    color: #004773;
+}
+
+#layout {
+    width: 800px;
+    margin: 48px auto;
+    font-size: 24px;
+}
+
+#span {
+    text-align: center;
 }
