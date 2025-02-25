@@ -26,24 +26,30 @@
 }
 
 #hero {
-    background-image: url(/harbor-breeze/Images/pexels-valeriya-1123250.jpg);
     height: 500px;
     height: 100vh;
+    background:
+    linear-gradient(180deg, #0096F355, #0096F333),
+    url("../images/pexels-valeriya-1123250.jpg");
     background-size: cover;
     background-position: center center;
+    position: relative;
     color: aliceblue;
 }
 
 #hero-content {
-    align-items: center;
-    padding: 100px 50px;
+    position: absolute;
+    top: 20%;
+    left: 5%;
 }
 
 #hero-content p {
-    margin-bottom: 50px;   
+    margin-bottom: 50px;
+    font-size: 22px;  
 }
 
 #hero-content h2 {
+    font-size: 52px;
     margin-bottom: 0px;   
 }
 
@@ -56,7 +62,63 @@
 }
 
 #hero-content a:hover {
-    background-color: #f6c444;
+    background-color: #004773;
     color: #0096F3;
 }
 
+.single-column {
+    min-width: 600px;
+    max-width: 1200px;
+    margin: 0px auto;
+}
+
+#card-section {
+    background: linear-gradient(to bottom, #0096F3, #004773);
+    color: #bfefff;
+    padding: 48px;
+}
+
+#card-section h1 {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    flex: 1;
+    border: 3px solid #bfefff;
+    padding: 20px;
+    text-align: center;
+    margin: 6px;
+    border-radius: 25px;
+}
+
+.card img {
+    border-radius: 25px;
+}
+.card h3 {
+    font-size: 20px;
+    margin: 10px;
+}
+
+.card p {
+    font-size: 14px;
+    margin: 14px 0px ;
+}
+
+.card a {
+    padding: 10px 20px;
+    background-color: #0096F3;
+    border-radius: 15px;
+    text-decoration: none;
+    color: #004773;
+}
+
+.card a:hover {
+    background-color: #004773;
+    color: white;
+}
