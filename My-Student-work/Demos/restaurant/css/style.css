@@ -360,7 +360,7 @@ body {
 
 /* responsiveness */
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 430px) {
     #hero h1 {
         font-size: 4vw; 
         text-align: center;
