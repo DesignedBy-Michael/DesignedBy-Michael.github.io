@@ -1,0 +1,247 @@
+* {
+    box-sizing: border-box;
+    margin: 10px;
+}
+
+body {
+    min-height: 100vh;
+    margin: 0px;
+    font-family: 'Geist Mono', sans-serif, monospace;
+    line-height: 1.6;
+}
+
+/*== Navbar ==*/
+
+#navbar {
+    font-family: sans-serif;
+    display: flex;
+    justify-content: space-between;
+}
+
+#navbar a {
+    text-decoration: none;
+    color: black;
+}
+
+#navbar a:hover {
+    color: #ff924f;
+}
+
+.logo {
+    margin-right: auto;
+}
+
+/* ===== CARDS ===== */
+
+#card-section {
+    padding: 48px;
+}
+    
+    
+.card-container {
+    display: flex;
+    justify-content: space-between;
+}
+    
+    
+.card {
+    flex: 1;
+    padding: 36px;
+    text-align: center;
+    margin: 36px;
+}
+    
+.card h3 {
+    font-size: 36px;margin: 0px;}
+    
+.card p {
+    font-size: 24px;margin: 24px 0px 0px;
+}
+
+.card a {
+    text-decoration: none;
+}
+
+.card h3:hover {
+    color: #e07d3a;
+}
+
+/* ===== FOOTER ===== */
+
+.footer-section {
+    display: flex;
+    margin-top: auto;
+}
+
+.footer-section p {
+    margin-left: auto;
+}
+
+.footer-section a {
+    color: #ff924f;
+}
+
+.social-links {
+    margin-left: auto;
+}
+
+.copyright {
+    text-align: center;
+}
+
+/* ===== TYPOGRAPHY ===== */
+h2, h3, h4 {
+    font-family: sans-serif;
+    line-height: 1.2;
+    margin-bottom: 1rem;
+    color: #ff924f;
+}
+
+#hero-1 span {
+    color: #ff924f;
+}
+
+strong {
+    color: #ff924f;
+}
+
+/* ==Body== */
+
+.single-column {
+    min-width: 500px;
+    margin: 0px auto;}
+
+.side-by-side {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+    
+.side-by-side .image-container {
+    flex: 1;
+}
+    
+.side-by-side .text-container {
+    flex: 1;padding: 36px;
+}
+    
+    
+.side-by-side .image-container img {
+    width: 100%;
+}
+    
+.side-by-side .text-container h1 {
+    font-size: 40px;
+    text-align: center;
+
+}
+
+.side-by-side .text-container p {
+    margin-bottom: 50px;
+}
+.side-by-side .text-container a {
+    font-size: 20px;
+    text-decoration: none;
+    display: flex;
+    background-color: #ff924f;
+    color: white;
+    padding: 20px; 
+    border-radius: 12px;
+    justify-content: center;
+    width: 300px;
+    margin: 0 auto;
+}
+
+.side-by-side .text-container a:hover {
+    background-color: #e07d3a; /* Slightly darker on hover */
+  }
+
+.side-by-side span {
+    color: #ff924f;
+}
+
+
+/* page titles */
+.title {
+    text-align: center;        /* Centers all text content */
+    display: flex;             /* Enables flexbox */
+    flex-direction: column;    /* Stacks children vertically */
+    align-items: center;       /* Centers children horizontally */
+    justify-content: center;   /* Centers children vertically (if container has height) */
+    max-width: 800px;          /* Limits width for better readability */
+    margin: 0 auto;            /* Centers the div horizontally */
+    padding: 2rem;             /* Adds internal spacing */
+  }
+  
+  .title h1 {
+    margin-bottom: 1rem;       /* Space between heading and paragraph */
+    font-size: 2.5rem;         /* Larger heading size */
+  }
+  
+  .title p {
+    margin: 0 auto;            /* Centers paragraph within container */
+    line-height: 1.6;          /* Better paragraph spacing */
+    font-size: 1rem;         /* Slightly larger paragraph text */
+  }
+
+/* project cta */
+
+#project-cta {
+    text-align: center;        
+    display: flex;             
+    flex-direction: column;    
+    align-items: center;       
+    justify-content: center;   
+    max-width: 800px;          
+    margin: 0 auto; 
+    padding: 2rem; 
+  }
+
+  #project-cta a {
+    font-size: 20px;
+    text-decoration: none;
+    display: flex;
+    background-color: #ff924f;
+    color: white;
+    padding: 20px; 
+    border-radius: 12px;
+    justify-content: center;
+    width: 200px;
+    margin: 0 auto;
+}
+
+#project-cta a:hover {
+    background-color: #e07d3a; /* Slightly darker on hover */
+}
+
+#project-cta h1 {
+    margin-bottom: 1rem;       /* Space between h1 and paragraph */
+}
+
+#project-cta p {
+    margin-bottom: 2rem;       /* Space between paragraph and button */
+    max-width: 600px;          /* Optional: limits paragraph width */
+}
+
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 768px) {
+    .header-container {
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+    
+    nav ul {
+        gap: 1rem;
+        text-align: center;
+    }
+    
+    .social-links {
+        margin-left: 0;
+        justify-content: center;
+    }
+    
+    h1 {
+        font-size: 2rem;
+    }
+}
