@@ -4,10 +4,14 @@
 }
 
 body {
-    min-height: 100vh;
-    margin: 0px;
-    font-family: 'Geist Mono', sans-serif, monospace;
-    line-height: 1.6;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Fallback for modern browsers */
+}
+
+main {
+    flex: 1; /* Pushes footer down */
 }
 
 /*== Navbar ==*/
@@ -74,28 +78,50 @@ body {
 
 /* ===== FOOTER ===== */
 
+footer {
+    margin-top: auto; /* Backup stickiness */
+    width: 100%;
+    background: #333; /* Example color - change as needed */
+    padding: 2rem 0;
+}
+  
 .footer-section {
     display: flex;
-    margin-top: auto;
+    justify-content: space-between; /* Better than margin-left: auto */
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 2rem;
 }
-
+  
 .footer-section p {
-    margin-left: auto;
+    margin-left: 0; /* Reset your existing margin */
+    color: #101010; /* Added for visibility */
 }
-
+  
 .footer-section a {
     color: #ff924f;
+    text-decoration: none;
+    transition: color 0.3s;
 }
-
+  
+.footer-section a:hover {
+    color: #ffad73;
+}
+  
 .social-links {
-    margin-left: auto;
+    display: flex;
+    gap: 1rem; /* Space between social icons */
 }
-
+  
 .copyright {
     text-align: center;
+    margin-top: 2rem;
+    color: #101010;
+    font-size: 0.9rem;
 }
 
 /* ===== TYPOGRAPHY ===== */
+
 h2, h3, h4 {
     font-family: sans-serif;
     line-height: 1.2;
@@ -166,6 +192,9 @@ strong {
     color: #ff924f;
 }
 
+ul {
+    list-style: none;
+}
 
 /* page titles */
 .title {
