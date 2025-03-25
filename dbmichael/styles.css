@@ -87,6 +87,10 @@ body {
     color: #ff924f;
 }
 
+.social-links {
+    margin-left: auto;
+}
+
 .copyright {
     text-align: center;
 }
