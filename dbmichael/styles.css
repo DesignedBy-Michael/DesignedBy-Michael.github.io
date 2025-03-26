@@ -92,34 +92,101 @@ img {
 #card-section {
     padding: 48px;
 }
-    
-    
+
 .card-container {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap; /* Ensures responsiveness */
 }
-    
-    
+
 .card {
-    flex: 1;
-    padding: 36px;
-    text-align: center;
-    margin: 36px;
-}
-    
-.card h3 {
-    font-size: 36px;margin: 0px;}
-    
-.card p {
-    font-size: 24px;margin: 24px 0px 0px;
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+    margin: 20px;
+    transition: transform 0.3s ease;
 }
 
-.card a {
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.case-study-link {
     text-decoration: none;
+    color: inherit;
+    display: block; /* Ensures the link covers the entire card */
 }
 
-.card h3:hover {
-    color: #e07d3a;
+/* --- Image Container & Hover Effects --- */
+.card-image-container {
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+    aspect-ratio: 16/9;
+}
+
+.card-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.card:hover .card-image {
+    transform: scale(1.03);
+}
+
+/* --- Overlay & Text Reveal (for Orlando Film Festival) --- */
+.image-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    
+    opacity: 1;
+    transition: opacity 0.3s ease, background 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* Hide text by default, show on hover */
+.image-overlay h3,
+.image-overlay p {
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.card:hover .image-overlay {
+    background: rgba(0, 0, 0, 0.7); /* Darker on hover for better text contrast */
+}
+
+.card:hover .image-overlay h3,
+.card:hover .image-overlay p {
+    opacity: 1; /* Reveal text on hover */
+}
+
+/* --- Typography --- */
+.card h3 {
+    font-size: 25px;
+    margin: 0;
+    color: #333;
+    transition: color 0.3s ease;
+}
+
+.card p {
+    font-size: 14px;
+    color: #ffffff;
+}
+
+.card:hover h3 {
+    color: #ff924f; /* Or #e07d3a for hover state */
 }
 
 /* ===== FOOTER ===== */
@@ -513,7 +580,66 @@ width: 0;
     background: #e07d3a;
 }
 
+/* ===== Base Styles ===== */
+.page-title h2 {
+    font-size: 2.5rem;          /* 40px */
+    font-weight: 700;
+    margin-bottom: 1.5rem;      /* 24px */
+    text-align: center;
+    position: relative;
+  }
+  
+  /* ===== Content Container ===== */
+  .content-container {
+    max-width: 720px;           /* Optimal reading width */
+    margin: 0 auto;
+    padding: 0 1.5rem;          /* Responsive side padding */
+  }
+  
+  /* ===== Typography ===== */
+  .about-content {
+    font-size: 1.125rem;        /* 18px base */
+    line-height: 1.7;           /* Improved readability */
+    color: #262626;
+  }
+  
+  .about-content p {
+    margin-bottom: 1.5rem;      /* Consistent paragraph spacing */
+  }
+  
+  .about-content strong {
+    color: #ff924f;                /* Darker for emphasis */
+    font-weight: 600;
+  }
+
+  .about-image-right {
+    width: 200px;
+    height: 200px;
+    border-radius: 15%; /* Circular image */
+    shape-outside: circle(); /* Text wraps around */
+    float: right;
+    margin: 0 0 1.5rem 1.5rem; /* Space between image and text */
+    object-fit: cover;
+}
+  
+  /* ===== Decorative Elements ===== */
+  .about-content p:last-child {
+    text-align: center;
+    font-size: 1.25rem;         /* 20px */
+    margin-top: 2.5rem;         /* 40px */
+  }
+  
 /* ===== RESPONSIVE ===== */
+  @media (max-width: 768px) {
+    .page-title h2 {
+      font-size: 2rem;          /* 32px on mobile */
+    }
+    
+    .about-content {
+      font-size: 1rem;          /* 16px on mobile */
+    }
+  }
+
 @media (max-width: 768px) {
     .header-container {
         flex-direction: column;
